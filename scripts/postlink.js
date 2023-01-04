@@ -25,7 +25,7 @@ if (!isInstalled.forAndroid()) {
 
 if (!isInstalled.forIos()) {
   const plist = require('plist');
-  const infoPlistPath = path.join(appDir, 'ios', manifest.name, 'Info.plist');
+  const infoPlistPath = path.join(appDir, 'ios', "sparkfrontreactnative", 'Info.plist');
   const infoPlistFile = fs.readFileSync(infoPlistPath, 'utf8');
   const infoPlist = plist.parse(infoPlistFile);
   const pListChanges = {};
