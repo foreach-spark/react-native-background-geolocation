@@ -156,6 +156,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 418F753D1D02DC3D0045FEA0;
@@ -303,6 +304,8 @@
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../../../ios/Pods/Headers/Public/**",
+					"$(SRCROOT)/common",
+					"$(SRCROOT)/common/BackgroundGeolocation",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -318,6 +321,8 @@
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../../../ios/Pods/Headers/Public/**",
+					"$(SRCROOT)/common",
+					"$(SRCROOT)/common/BackgroundGeolocation",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
